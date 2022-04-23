@@ -1,0 +1,29 @@
+$title: 30px;
+$header-margin: 10px;
+$lg-fonts: 25px;
+* {
+  font-family: 'Playfair Display', serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 5vw;
+  border-bottom: 2px solid black;
+
+  .title {
+    font-size: $title;
+    margin-top: $header-margin;
+  }
+
+  .search {
+    font-size: $lg-fonts;
+    margin-top: $header-margin;
+
+    .units{
+      margin-left: 10px;
+      margin-bottom: 8px;
+    }
+    
+  }
+}

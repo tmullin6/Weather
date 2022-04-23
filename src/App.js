@@ -1,9 +1,14 @@
+import Header from "./components/Header";
+import CurrentWeather from "./components/CurrentWeather";
+import FiveDay from "./components/FiveDay";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <Header />
+      <CurrentWeather />
+      <FiveDay />
+    </>
   );
 }
 
