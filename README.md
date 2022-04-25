@@ -12,7 +12,7 @@ Simple. Search for the city you want and get the current weather, the five day f
 
 # API:
 
-Weather data provided by [OpenWeather API] (https://openweathermap.org/)
+Weather data provided by [OpenWeather API](https://openweathermap.org/)
 
 # Technology:
 
